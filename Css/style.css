@@ -1,0 +1,48 @@
+@import url('bootstrap.min.css');
+@import url('all.min.css');
+header .top-header{
+    border-bottom: 1px solid#efefef;
+}
+
+header .top-header .nav-link {
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-right: 1px solid #efefef;
+    color: #858585;
+    display: inline-block;
+    padding: 11px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+header .middle-part{
+    margin-bottom:1.125rem;
+    margin-top: 1.5rem;
+}
+header .middle-part .container .row .col-sm-8 .nav .nav-link{
+    padding:0.625rem 0.4375rem 0.4375rem 0.4375rem;
+    font-size: 0.625rem;
+    color: #858585;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+header .middle-part .container .row .col-sm-8 .nav .nav-link .form-control{
+    border-radius: 0;
+    background-color: #f0f0f0;
+    padding: 0.375rem .75rem; 
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+
+
+}
+header .middle-part .container .row .col-sm-8 .nav .nav-link .input-group-text{
+    border-radius: 0;
+    background-color: #ef4749;
+    border-color: transparent;
+    color: #fff;
+
+
+}
